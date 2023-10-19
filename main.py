@@ -1,6 +1,6 @@
 from turtle import *
 # uppercase letters go up here
-from turtle import *
+
 def drawY():
   penup()
   goto(-50,0)
@@ -19,8 +19,7 @@ def drawP():
   goto(100,25)
   goto(75,25)
 
-drawY()
-drawP()
+
 
 
 

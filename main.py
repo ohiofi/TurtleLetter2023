@@ -32,8 +32,7 @@ def drawF():
   forward(125)
   left(90)
 
-drawG()
-drawF()
+
 
 
 

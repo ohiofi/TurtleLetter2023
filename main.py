@@ -1,8 +1,7 @@
 from turtle import *
 # uppercase letters go up here
-from turtle import *
-def A():
-  
+
+def A():  
   penup()
   pencolor('#111166')
   goto(-200, 100)
@@ -21,8 +20,7 @@ def S():
   goto(200, 0)
   goto(200, -100)
   goto(100, -100)
-A()
-S()
+
 
 
 

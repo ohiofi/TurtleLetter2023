@@ -1,6 +1,6 @@
 from turtle import *
 # uppercase letters go up here
-from turtle import *
+
 
 def drawC():
   goto(0, 0)
@@ -9,8 +9,7 @@ def drawC():
   left(90)
   forward(25)
   forward(20)
-  pendown()
-  
+  pendown()  
   for i in range(17):
     left(20)
     forward(20)
@@ -27,8 +26,7 @@ def drawL():
   pendown()
   forward(75)
 
-drawC()
-drawL()
+
 
 
 

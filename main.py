@@ -9,7 +9,7 @@ def drawC():
   left(90)
   forward(25)
   forward(20)
-  pendown()  
+  pendown()
   for i in range(17):
     left(20)
     forward(20)
@@ -26,34 +26,32 @@ def drawL():
   pendown()
   forward(75)
 
-
-
-
 def upperT():
-    turtle.pendown()
-    turtle.forward(95)
-    turtle.penup()
-    turtle.right(180)
-    turtle.forward(47.5)
-    turtle.left(90)
-    turtle.pendown()
-    turtle.forward(100)
-    turtle.penup()
-    turtle.right(180)
-    turtle.forward(100)
-    turtle.right(90)
-    turtle.forward(100)
+    pendown()
+    forward(95)
+    penup()
+    right(180)
+    forward(47.5)
+    left(90)
+    pendown()
+    forward(100)
+    penup()
+    right(180)
+    forward(100)
+    right(90)
+    forward(100)
     return
+  
 def upperJ():
-    turtle.pendown()
-    turtle.right(90)
-    turtle.forward(75)
-    turtle.penup()
-    turtle.right(90)
-    turtle.forward(50)
-    turtle.pendown()
-    turtle.right(270)
-    turtle.circle(25,180)
+    pendown()
+    right(90)
+    forward(75)
+    penup()
+    right(90)
+    forward(50)
+    pendown()
+    right(270)
+    circle(25,180)
     return
 
 def drawN():
@@ -83,27 +81,27 @@ def drawB():
 
 
 def drawA():
-  turtle.pendown()
-  turtle.forward(200)
-  turtle.right(150)
-  turtle.forward(200)
-  turtle.left(180)
-  turtle.forward(100)
-  turtle.left(75)
-  turtle.forward(60)
+  pendown()
+  forward(200)
+  right(150)
+  forward(200)
+  left(180)
+  forward(100)
+  left(75)
+  forward(60)
 
 
 def drawR():
-  turtle.right(90)
-  turtle.forward(50)
-  turtle.right(180)
-  turtle.forward(200)
-  turtle.right(90)
+  right(90)
+  forward(50)
+  right(180)
+  forward(200)
+  right(90)
   for i in range(90):
-    turtle.right(2)
-    turtle.forward(2)
-  turtle.left(120)
-  turtle.forward(100)
+    right(2)
+    forward(2)
+  left(120)
+  forward(100)
 
 def drawG():
   penup()
@@ -166,7 +164,7 @@ def drawW():
   left(130)
   forward(254)
 
-def A():  
+def A():
   penup()
   pencolor('#111166')
   goto(-200, 100)
@@ -177,6 +175,7 @@ def A():
   goto(-200, 100)
   goto(-300, -100)
   penup()
+  
 def S():
   goto(200, 100)
   pendown()
@@ -191,10 +190,11 @@ def drawY():
   goto(-50,0)
   pendown()
   goto(0,50)
-  penup() 
+  penup()
   goto(-25,25)
   pendown()
   goto(-50,50)
+  
 def drawP():
   penup()
   goto(75,0)
@@ -211,10 +211,3 @@ def drawP():
 
 
 # lowercase letters down here
-
-
-
-
-
-
-
